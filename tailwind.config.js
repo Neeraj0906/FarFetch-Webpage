@@ -4,9 +4,9 @@ module.exports = {
   theme: {
     extend: {
       backgroundImage: {
-        women: "url('/landing-page/img2/welcome-page-image-ww.png')",
-        men: "url('/landing-page/img2/welcome-page-image-mw.png')",
-        kids: "url('/landing-page/img2/welcome-page-image-kw.png')",
+        women: "url('/welcome-page-image-ww.png')",
+        men: "url('welcome-page-image-mw.png')",
+        kids: "url('/welcome-page-image-kw.png')",
       }
     },
   },

@@ -652,6 +652,10 @@ video {
   margin-bottom: 1.25rem;
 }
 
+.mb-8 {
+  margin-bottom: 2rem;
+}
+
 .mr-14 {
   margin-right: 3.5rem;
 }
@@ -660,8 +664,32 @@ video {
   margin-top: 1rem;
 }
 
-.mb-8 {
-  margin-bottom: 2rem;
+.ml-5 {
+  margin-left: 1.25rem;
+}
+
+.mr-24 {
+  margin-right: 6rem;
+}
+
+.mr-3\.5 {
+  margin-right: 0.875rem;
+}
+
+.mr-8 {
+  margin-right: 2rem;
+}
+
+.mr-28 {
+  margin-right: 7rem;
+}
+
+.mr-36 {
+  margin-right: 9rem;
+}
+
+.mr-40 {
+  margin-right: 10rem;
 }
 
 .box-border {
@@ -680,10 +708,6 @@ video {
   height: 200px;
 }
 
-.h-\[60px\] {
-  height: 60px;
-}
-
 .w-\[15\%\] {
   width: 15%;
 }
@@ -700,6 +724,10 @@ video {
   width: 30%;
 }
 
+.w-\[30px\] {
+  width: 30px;
+}
+
 .w-\[370px\] {
   width: 370px;
 }
@@ -710,6 +738,10 @@ video {
 
 .w-\[50\%\] {
   width: 50%;
+}
+
+.w-\[70\%\] {
+  width: 70%;
 }
 
 .w-\[80\%\] {
@@ -727,14 +759,6 @@ video {
 
 .w-full {
   width: 100%;
-}
-
-.w-\[70\%\] {
-  width: 70%;
-}
-
-.w-\[30px\] {
-  width: 30px;
 }
 
 .cursor-pointer {
@@ -765,14 +789,6 @@ video {
   justify-content: space-between;
 }
 
-.gap-2 {
-  gap: 0.5rem;
-}
-
-.gap-y-3 {
-  row-gap: 0.75rem;
-}
-
 .gap-x-10 {
   -moz-column-gap: 2.5rem;
        column-gap: 2.5rem;
@@ -780,11 +796,6 @@ video {
 
 .gap-y-2 {
   row-gap: 0.5rem;
-}
-
-.gap-x-2 {
-  -moz-column-gap: 0.5rem;
-       column-gap: 0.5rem;
 }
 
 .rounded-md {
@@ -829,15 +840,15 @@ video {
 }
 
 .bg-kids {
-  background-image: url('/landing-page/img2/welcome-page-image-kw.png');
+  background-image: url('/welcome-page-image-kw.png');
 }
 
 .bg-men {
-  background-image: url('/landing-page/img2/welcome-page-image-mw.png');
+  background-image: url('welcome-page-image-mw.png');
 }
 
 .bg-women {
-  background-image: url('/landing-page/img2/welcome-page-image-ww.png');
+  background-image: url('/welcome-page-image-ww.png');
 }
 
 .bg-contain {
@@ -953,14 +964,14 @@ video {
   line-height: 1.5rem;
 }
 
-.text-sm {
-  font-size: 0.875rem;
-  line-height: 1.25rem;
-}
-
 .text-lg {
   font-size: 1.125rem;
   line-height: 1.75rem;
+}
+
+.text-sm {
+  font-size: 0.875rem;
+  line-height: 1.25rem;
 }
 
 .font-black {
